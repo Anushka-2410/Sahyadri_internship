@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+    <!--Form,label-display,input-checkbox,text,password,radio button-->
+    <form>
+        <h1>The form target attribute</h1>
+        <label>First Name:</label>
+        <input name="fname" type="text" placeholder="Enter First Name" required >
+        <br>
+        <label>Last Name:</label>
+        <input name="lname" type="text" placeholder="Enter Last Name" required >
+        <br>
+        <label>Contact No:</label>
+        <input name="cn" type="number" placeholder="Enter Contact No" required>
+        <br>
+        <label>Age:</label>
+        <input name="age" type="number" placeholder="Enter Age" >
+        <br>
+        <label>Gender:
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+    </label>
+        <br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+        <br>
+        &nbsp;
+        <input type="checkbox">
+        <label>I Agree</label>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <button type="button" onclick="alert('Hello world')">Click me</button>
+    </form>
+    <h1>HTML input types</h1>
+    <input type="button">button<br>
+    <input type="checkbox">checkbox<br>
+    <input type="color">color<br>
+    <input type="date">date<br>
+    <input type="datetime-local">datetime-local<br>
+    <input type="email">email<br>
+    <input type="file">file<br>
+    <input type="hidden">hidden<br>
+    <input type="image">image<br>
+    <input type="number">number<br>
+    <input type="password">password<br>
+
+    <input type="button">
+    <h1>Select Tag</h1>
+    <select name="state">
+        <option>--select--</option>
+        <option>MH</option>
+        <option>UP</option>
+        <option>MP</option>
+    </select>
+    <h1>textarea Tag(multiline input field)</h1>
+    <label>Feedback</label>
+    <br>
+    <textarea name="message" rows="4" cols="50"></textarea>
+
+<h1>Fieldset(used to group related data in form)</h1>
+<form>
+    <fieldset>
+        <legend>Personalia</legend>
+        <label>First Name:</label>
+        <input type="text" required>
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" required>
+    </fieldset>
+</form>
+    <h1>datalist(dropdown list)</h1>
+        <input list="browsers" placeholder="Browsers">
+        <datalist id="browsers">
+            <option value="Google">
+                <option value="Google">
+                    <option value="Google">
+                    <option value="Google">
+                    <option value="Google">
+
+        </datalist>
+    </form>
+
+</body>
+</html>
